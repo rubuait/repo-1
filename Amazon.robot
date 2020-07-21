@@ -1,4 +1,5 @@
-# This is the block for all Imports.
+# This is the block for all Imports
+
 *** Settings ***
 Library  SeleniumLibrary
 
