@@ -1,6 +1,30 @@
 public class MyClass {
-	public static void main(String[] args) {
-        System.out.println("This is a Java Class")
+    public static void main(String[] args) {
+        print("This is a Java class");
+
+        if (1 == 1) {
+            print("Hello World");
+        }
+
+        if (1 != 0) {
+            print("Not gate");
+        }
+
+        if (1 == 1 || 1 == 2) {
+            print("Inside OR gate");
+        }
+
+        if (1 == 1 && 1 == 2) {
+            print("Inside AND gate");
+        }
+
+
+
     }
-	
+
+    private static void print(String printableText){
+        System.out.println(printableText);
+    }
 }
+
+ 
