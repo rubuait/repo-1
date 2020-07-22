@@ -16,11 +16,13 @@ public class MyClass {
 
         if (1 == 1 && 1 == 2) {
             print("Inside AND gate");
+
+
         }
 
 
 
-    }
+    }//i will add more code
 
     private static void print(String printableText){
         System.out.println(printableText);
